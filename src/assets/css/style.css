@@ -843,6 +843,7 @@ section {
 #services {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+
 }
 
 #services .box {
@@ -1202,6 +1203,8 @@ section {
     width: 80%;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Team
@@ -1601,6 +1604,21 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #34e5a6;
+}
+
+#contact .form button[type="submit"] {
+  background: #007bff;
+  border: 0;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #fff;
+  transition: 0.3s;
+  text-transform:uppercase;
+}
+
+#contact .form button[type="submit"]:hover {
+  background: #0067d5;
+  cursor: pointer;
 }
 
 @-webkit-keyframes animate-loading {
